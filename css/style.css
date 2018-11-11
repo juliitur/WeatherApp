@@ -1,0 +1,98 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+#first-section {
+  background: url(../img/pexels-photo-2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1250px;
+}
+
+#first-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1250px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.foot-1 {
+  padding: 33px;
+  margin: auto;
+}
+
+.f2 {
+  background-color: rgb(11, 114, 7);
+}
+
+.f3{
+  min-width: 200px;
+}
+
+.f12 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.f068 {
+  height: auto;
+  width: 150%;
+}
+
+#first-section .first-inner {
+  padding-top: 50px;
+}
+
+#first-section .card-form {
+  opacity: 0.8;
+  min-height: 830px;
+}
+
+#first-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.info {
+  font-size: 22px;
+  font-style: medium;
+  text-transform: uppercase;
+  color: #f5d769;
+  font-family: 'K2D', sans-serif;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+.local {
+  padding: 55px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.l2{
+  min-height: 900px !important;
+}
+
+@media(max-width: 839px) {
+
+  #first-section,
+  #first-section .dark-overlay {
+    min-height: 2300px;
+  }
+}
